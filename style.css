@@ -1,0 +1,40 @@
+ img {
+            border-radius: 20px;
+            border: 10px ridge goldenrod;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        img:hover {
+            transform: translateY(-5px);
+            transform: rotateY(180deg);
+            box-shadow: 0 0 20px red;
+        }
+        @media only screen and (max-width: 600px) {
+    body {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-width: 6px;
+    }
+}
